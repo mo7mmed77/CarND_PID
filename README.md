@@ -1,6 +1,7 @@
 # CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
+Self-Driving Car Engineer Nanodegree Program 
 
+The aim of this project is to implement a PID controller on a self driving car in Udacity's simulator. There are two PID controllers used here, one for controlling the steering by taking the cross track error (CTE) as an input. The other PID controller controls the speed at a given value using the throttle command. Both inputs to the simulator are limited to certain values, the steering controller are limited at [-1, 1]. The interface between the simulator and the PID controlller code is done through uWebSoockets. 
 ---
 
 ## Dependencies
@@ -28,12 +29,24 @@ Self-Driving Car Engineer Nanodegree Program
 
 Fellow students have put together a guide to Windows set-up for the project [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/files/Kidnapped_Vehicle_Windows_Setup.pdf) if the environment you have set up for the Sensor Fusion projects does not work for this project. There's also an experimental patch for windows in this [PR](https://github.com/udacity/CarND-PID-Control-Project/pull/3).
 
-## Basic Build Instructions
+## Build Instructions
 
-1. Clone this repo.
-2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./pid`. 
+
+Build and run command : `.\buildAndrun`. This command will first create a build folder then cmake and make the files into it. Finally it will run the binary file `.\pid`
+
+The controller will be listening to port 4567 for CTE, speed and other paramters from the simulator. The simulator should also expect the steering angle and throttle values from the controller. 
+
+Run the Udacity Simulator
+![Simulator first screen](images/simulator_first.png)
+
+
+Then Chose prject 4 PID controller
+![Simulator PID controller project](images/simulator_PID.png)
+
+After that the pid controller should take over the simulated vehicle through the tracks!
+
+![Running](images/Capture.png)
+
 
 Tips for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
 
