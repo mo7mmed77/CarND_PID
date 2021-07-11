@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/PID.cpp" "/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/CMakeFiles/pid.dir/PID.cpp.o"
-  "/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/main.cpp" "/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/CMakeFiles/pid.dir/main.cpp.o"
+  "/mnt/d/self_driving_car/Control/PID_Mine_final/src/PID.cpp" "/mnt/d/self_driving_car/Control/PID_Mine_final/src/CMakeFiles/pid.dir/PID.cpp.o"
+  "/mnt/d/self_driving_car/Control/PID_Mine_final/src/main.cpp" "/mnt/d/self_driving_car/Control/PID_Mine_final/src/CMakeFiles/pid.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/self_driving_car/Control/CarND-PID-Control-Project
+# Install script for directory: /mnt/d/self_driving_car/Control/PID_Mine_final
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/self_driving_car/Control/PID_Mine_final/src/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

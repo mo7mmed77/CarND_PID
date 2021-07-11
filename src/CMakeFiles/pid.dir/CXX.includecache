@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/PID.cpp
+/mnt/d/self_driving_car/Control/PID_Mine_final/src/PID.cpp
 PID.h
-/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/PID.h
+/mnt/d/self_driving_car/Control/PID_Mine_final/src/PID.h
 
-/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/PID.h
+/mnt/d/self_driving_car/Control/PID_Mine_final/src/PID.h
 
-/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/json.hpp
+/mnt/d/self_driving_car/Control/PID_Mine_final/src/json.hpp
 algorithm
 -
 array
@@ -68,7 +68,7 @@ utility
 vector
 -
 
-/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/main.cpp
+/mnt/d/self_driving_car/Control/PID_Mine_final/src/main.cpp
 uWS/uWS.h
 -
 iostream
@@ -76,9 +76,9 @@ iostream
 string
 -
 json.hpp
-/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/json.hpp
+/mnt/d/self_driving_car/Control/PID_Mine_final/src/json.hpp
 PID.h
-/mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/PID.h
+/mnt/d/self_driving_car/Control/PID_Mine_final/src/PID.h
 math.h
 -
 

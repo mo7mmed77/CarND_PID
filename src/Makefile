@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/self_driving_car/Control/CarND-PID-Control-Project
+CMAKE_SOURCE_DIR = /mnt/d/self_driving_car/Control/PID_Mine_final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src
+CMAKE_BINARY_DIR = /mnt/d/self_driving_car/Control/PID_Mine_final/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/CMakeFiles /mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/self_driving_car/Control/PID_Mine_final/src/CMakeFiles /mnt/d/self_driving_car/Control/PID_Mine_final/src/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/self_driving_car/Control/CarND-PID-Control-Project/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/self_driving_car/Control/PID_Mine_final/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
