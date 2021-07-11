@@ -43,7 +43,7 @@ Run the Udacity Simulator
 Then Chose prject 4 PID controller
 ![Simulator PID controller project](images/simulator_PID.png)
 
-After that the pid controller should take over the simulated vehicle through the tracks!
+After that the pid controller should take over the simulated vehicle through the tracks!. Note: the required speed is 20 m/s and it can be modified. 
 
 ![Running](images/Capture1.PNG)
 
